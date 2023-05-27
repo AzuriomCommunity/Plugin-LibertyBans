@@ -1,0 +1,16 @@
+{
+    "id": "libertybans",
+    "name": "LibertyBans",
+    "description": "An Azuriom plugin to integrate LibertyBans.",
+    "version": "0.1.0",
+    "url": "https://azuriom.com/market/resources/109",
+    "authors": [
+        "Arnaud Lier"
+    ],
+    "azuriom_api": "1.0.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\LibertyBans\\Providers\\LibertyBansServiceProvider",
+        "\\Azuriom\\Plugin\\LibertyBans\\Providers\\RouteServiceProvider"
+    ],
+    "api_id": "109"
+}
