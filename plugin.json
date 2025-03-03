@@ -2,7 +2,7 @@
     "id": "libertybans",
     "name": "LibertyBans",
     "description": "An Azuriom plugin to integrate LibertyBans.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "url": "https://azuriom.com/market/resources/109",
     "authors": [
         "Arnaud Lier"
