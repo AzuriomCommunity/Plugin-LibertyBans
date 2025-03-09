@@ -1,24 +1,21 @@
 <?php
 
 return [
-    'title' => 'LibertyBans',
+	'permissions' => [
+		'admin' => 'Управление плагином LibertyBans',
+		'view' => 'Просмотр страницы LibertyBans',
+	],
 
-    'search_placeholder' => 'Имя пользователя или причина',
+	'settings' => [
+		'title' => 'Настройки страницы LibertyBans',
 
-    'victim' => 'Игрок',
-    'operator' => 'Оператор',
-    'reason' => 'Причина',
-    'expires_at' => 'Истекает',
-    'no_punishments_found' => 'Мы не смогли найти в базе данных наказания, соответствующие вашему запросу.',
-
-    'active' => 'Активно',
-    'finished' => 'Завершено',
-    'never' => 'Никогда',
-
-    'types' => [
-        'ban' => 'Бан',
-        'mute' => 'Мут',
-        'warn' => 'Предупреждение',
-        'kick' => 'Кик'
-    ],
+		'driver' => 'Драйвер',
+		'host' => 'Хост',
+		'database' => 'База данных',
+		'username' => 'Имя пользователя',
+		'password' => 'Пароль',
+		'perPage' => 'Записей на страницу',
+		'path' => 'Путь',
+		'pathHelp' => 'Это путь, по которому будет доступна страница списка наказаний LibertyBans после базового URL вашего сайта. Например, если вы установите значение <code>libertybans</code>, страница будет доступна по адресу <code>:baseURL/libertybans</code>.',
+	],
 ];
